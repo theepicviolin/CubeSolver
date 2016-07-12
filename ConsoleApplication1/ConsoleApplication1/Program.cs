@@ -24,7 +24,6 @@ namespace ConsoleApplication1
                 else if (c == 'b')
                     rotateFace(Face.F, 1);
                 Console.WriteLine();
-                //displayCube();
                 Console.WriteLine();
                 Console.WriteLine();
             }
@@ -59,7 +58,6 @@ namespace ConsoleApplication1
 
             }
             Console.Write("██");
-            //Console.Write(string.Format("{0, 7}", c.ToString()));
         }
 
         static void displayCube()
