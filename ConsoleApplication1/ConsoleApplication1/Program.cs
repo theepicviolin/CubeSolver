@@ -11,6 +11,7 @@ namespace ConsoleApplication1
     
     class Program
     {
+        //hello
         static Cublet[] cublets = { new Corner(1, 1, 1, Color.Red, Color.White, Color.Blue), new Corner(1, -1, 1, Color.Green, Color.White, Color.Red), new Corner(-1, -1, 1, Color.Orange, Color.White, Color.Green), new Corner(-1, 1, 1, Color.Blue, Color.White, Color.Orange), new Edge(1, 0, 1, Color.Red, Color.White), new Edge(0, -1, 1, Color.Green, Color.White), new Edge(-1, 0, 1, Color.Orange, Color.White), new Edge(0, 1, 1, Color.Blue, Color.White), new Center(0, 0, 1, Color.White) };
         static void Main(string[] args)
         {
